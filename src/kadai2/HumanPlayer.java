@@ -13,7 +13,7 @@ public class HumanPlayer extends Player {
     }
     
     //キーボードからジャンケンの手を読み込むようにする//
-    public   {
+    public  int nextHand() {
         do {
             System.out.println("ジャンケン開始ジャンケンの手(0..グー/1..チョキ/2..パー)");
             hand = stdIn.nextInt();
